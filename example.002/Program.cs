@@ -68,3 +68,19 @@ method(27489);  */
     
 }
 method(10); */
+
+int L=0, M,Q=9;
+int x=1021;
+while (x>=Q)
+{
+    L++;
+    x=x-Q;
+}
+M=x;
+if (M<L)
+{
+    M=L;
+    L=x;
+}
+Console.WriteLine(M);
+Console.WriteLine(L);

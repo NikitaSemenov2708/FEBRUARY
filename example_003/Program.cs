@@ -74,7 +74,7 @@ double result = a(1, 4, 1, 4, 1, 4);
 Console.WriteLine(result); */
 
 //Найти кубы чисел от 1 до N
-/* string met(int arg)
+string met(int arg)
 {
     var res = " ";
     for (int i = 1; i <= arg; i++)
@@ -83,4 +83,4 @@ Console.WriteLine(result); */
     }
     return res;
 }
-Console.WriteLine(met(5)); */
+Console.WriteLine(met(5));

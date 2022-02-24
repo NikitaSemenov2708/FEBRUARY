@@ -44,7 +44,7 @@ crosss(2, 1, 5, 4); */
 }
 cros(1,3,5,2,0.5); */
 
-/* Console.SetCursorPosition(Convert.ToInt32(x1), Convert.ToInt32(y1)); // если нужа картинка в терминале
+/* Console.SetCursorPosition(Convert.ToInt32(x1), Convert.ToInt32(y1)); // если нужна картинка в терминале можно с помощью данной конструкции
 Console.WriteLine("+");
 Console.SetCursorPosition(Convert.ToInt32(x2), Convert.ToInt32(y2));
 Console.WriteLine("+"); */

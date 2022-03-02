@@ -40,9 +40,19 @@ Console.WriteLine(method(2,5)); */
 
 //Показать натуральные числа от 1 до N, N задано
 
- /* string NumberLook(int n)
+  /* string NumberLook(int n)
 {
     return n == 1 ? n.ToString() : NumberLook(n-1)+" "+n;
     
 }
-Console.WriteLine(NumberLook(10)); */
+Console.WriteLine(NumberLook(10));  */
+
+//функция анкермана
+int method (int m, int n)
+{
+    if(m == 0) return n+1;
+    if(m>0&&n==0) return m=m-1 ; n=1;
+    if(m > 0&&n>0) return method(m-1,method(m,n-1));
+
+}
+Console.WriteLine(method(0,5));

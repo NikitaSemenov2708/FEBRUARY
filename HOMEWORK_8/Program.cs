@@ -54,7 +54,7 @@ SortArray(matrix);
 PrintArray(matrix); */
 //Задача 59: В прямоугольной матрице найти строку с наименьшей суммой элементов.
 
-/*  void PrintArray(int[,] matr)
+void PrintArray(int[,] matr)
 {
 for (int i = 0; i < matr.GetLength(0); i++)
 {
@@ -123,7 +123,7 @@ PrintArray(matrix);
 Console.WriteLine();
 ChangeArray(matrix);
 Console.WriteLine($"НАименьшая сумма элеменотов = {count}");
-Change2Array(matrix);  */
+Change2Array(matrix); 
 
 //Задача 61: Найти произведение двух матриц. (не решена)
 

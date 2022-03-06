@@ -26,6 +26,23 @@ void FineWords (string alphabet, char[] word, int length=0  )
 }
 FineWords("aисв", new char[2]); */
 
+/* using static System.Console;
+
+Clear();
+
+string charsWords = "аисв";
+int countCharsInWords = 3
+;
+PrintAllWords(charsWords,countCharsInWords,"");
+
+
+
+void PrintAllWords(string alphabet,int length,string prefix){
+  if(length==0) Console.WriteLine(prefix);
+  else
+   foreach(char c in alphabet) PrintAllWords(alphabet,length-1,prefix+c);
+} */
+
 // в указанном диапазоне вывести все взаимно простые числа указанному число от А до В и вводим число N// без N
 
 string NumberLook(int M, int N)
